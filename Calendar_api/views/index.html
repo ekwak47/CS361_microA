@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <link rel="stylesheet" href="" />
+  </head>
+<body>
+  <div class="form">
+    <hr>
+    <form action="http://localhost:4987/events" method="POST">
+      <label for="attendee email">Email</label>
+      <input type="email" name="to" placeholder="send email to...">
+      <label for="event title">Event Name</label>
+      <input type="text" name="summary" placeholder="the title of event...">
+      <label for="body"Description</label>
+      <input type="text" name="description" placeholder="the message body...">
+      <input type="submit" value="Send Event Invite">
+    </form>
+  </div>
+</body>
+</html>
